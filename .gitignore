@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+warehouse/*.duckdb
+warehouse/*.duckdb.wal
+data/raw/
+dbt/ecommerce/target/
+dbt/ecommerce/logs/
+dbt/ecommerce/dbt_packages/
+airflow/logs/
+airflow/plugins/
+.streamlit/
+*.egg-info/
+.DS_Store
